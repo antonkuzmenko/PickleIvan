@@ -12,6 +12,7 @@
     "serve": "node dist/index.js"
   },
   "dependencies": {
+    "@octokit/rest": "^15.9.4",
     "actions-on-google": "^2.1.3",
     "apollo-boost": "^0.1.7",
     "body-parser": "^1.18.3",
@@ -22,6 +23,7 @@
     "node-fetch": "^2.1.2",
     "prs-merged-since": "^1.1.0",
     "ramda": "^0.25.0",
+    "semver": "^5.5.0",
     "string-similarity": "^1.2.0"
   },
   "devDependencies": {
